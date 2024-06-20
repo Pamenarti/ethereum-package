@@ -768,10 +768,10 @@ def default_input_args(input_args):
 
 def default_network_params():
     return {
-        "network": "kurtosis",
-        "network_id": "3151908",
+        "network": "agrochain",
+        "network_id": "3443",
         "deposit_contract_address": "0x4242424242424242424242424242424242424242",
-        "seconds_per_slot": 12,
+        "seconds_per_slot": 7,
         "num_validator_keys_per_node": 64,
         "preregistered_validator_keys_mnemonic": "giant issue aisle success illegal bike spike question tent bar rely arctic volcano long crawl hungry vocal artwork sniff fantasy very lucky have athlete",
         "preregistered_validator_count": 0,
@@ -783,10 +783,9 @@ def default_network_params():
         "min_validator_withdrawability_delay": 256,
         "shard_committee_period": 256,
         "deneb_fork_epoch": 0,
-        "electra_fork_epoch": 100000000,
-        "eip7594_fork_epoch": 100000001,
+        "electra_fork_epoch": 1,
+        "eip7594_fork_epoch": 11,
         "eip7594_fork_version": "0x70000038",
-        "network_sync_base_url": "https://ethpandaops-ethereum-node-snapshots.ams3.cdn.digitaloceanspaces.com/",
         "data_column_sidecar_subnet_count": 32,
         "samples_per_slot": 8,
         "custody_requirement": 1,
@@ -798,8 +797,8 @@ def default_network_params():
 
 def default_minimal_network_params():
     return {
-        "network": "kurtosis",
-        "network_id": "3151908",
+        "network": "Agrochain",
+        "network_id": "3443",
         "deposit_contract_address": "0x4242424242424242424242424242424242424242",
         "seconds_per_slot": 6,
         "num_validator_keys_per_node": 64,
@@ -813,10 +812,9 @@ def default_minimal_network_params():
         "min_validator_withdrawability_delay": 256,
         "shard_committee_period": 64,
         "deneb_fork_epoch": 0,
-        "electra_fork_epoch": 100000000,
-        "eip7594_fork_epoch": 100000001,
+        "electra_fork_epoch": 1,
+        "eip7594_fork_epoch": 11,
         "eip7594_fork_version": "0x70000038",
-        "network_sync_base_url": "https://ethpandaops-ethereum-node-snapshots.ams3.cdn.digitaloceanspaces.com/",
         "data_column_sidecar_subnet_count": 32,
         "samples_per_slot": 8,
         "custody_requirement": 1,
