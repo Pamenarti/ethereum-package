@@ -277,7 +277,7 @@ def get_config(
             if constants.NETWORK_NAME.shadowfork in network
             else ""
         ),
-        "--networkid={0}".format(networkid),
+        "--networkid={0}".format(networkid), 
         "--verbosity=" + verbosity_level,
         "--datadir=" + EXECUTION_DATA_DIRPATH_ON_CLIENT_CONTAINER,
         "--http",
