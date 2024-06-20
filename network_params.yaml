@@ -85,7 +85,16 @@ network_params:
 additional_services:
   - tx_spammer
   - blob_spammer
+  - blobscan
+  - assertoor 
+  - blockscout 
+  - dugtrio
+  - blutgang
+  - blobber
+  - ethereum-metrics-exporter 
+  - full_beaconchain_explorer
   - el_forkmon
+  - xatu
   - beacon_metrics_gazer
   - dora
   - prometheus_grafana
