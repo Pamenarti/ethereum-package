@@ -84,6 +84,7 @@ additional_services:
   - blob_spammer
   - blobscan
   - blockscout 
+  - dora
   - full_beaconchain_explorer
   - el_forkmon
   - beacon_metrics_gazer
