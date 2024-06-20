@@ -98,7 +98,7 @@ NETWORK_NAME = struct(
     sepolia="sepolia",
     holesky="holesky",
     ephemery="ephemery",
-    Agrochain="Agrochain",
+    kurtosis="kurtosis",
     verkle="verkle",
     shadowfork="shadowfork",
 )
