@@ -768,7 +768,7 @@ def default_input_args(input_args):
 
 def default_network_params():
     return {
-        "network": "agrochain",
+        "network": "kurtosis",
         "network_id": "3443",
         "deposit_contract_address": "0x4242424242424242424242424242424242424242",
         "seconds_per_slot": 7,
@@ -798,7 +798,7 @@ def default_network_params():
 
 def default_minimal_network_params():
     return {
-        "network": "Agrochain",
+        "network": "kurtosis",
         "network_id": "3443",
         "deposit_contract_address": "0x4242424242424242424242424242424242424242",
         "seconds_per_slot": 6,
